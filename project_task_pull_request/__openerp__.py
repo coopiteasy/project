@@ -4,12 +4,11 @@
 {
     "name": "Project Task Pull Request",
     "summary": "Adds a field for a PR URI to project tasks",
-    "version": "10.0.1.0.0",
+    "version": "9.0.1.0.0",
     "category": "Project Management",
     "website": "https://odoo-community.org/",
     "author": "SMDrugstore, Odoo Community Association (OCA)",
     "license": "AGPL-3",
-    "application": False,
     "installable": True,
     "depends": [
         "project",

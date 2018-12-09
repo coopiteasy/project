@@ -2,12 +2,11 @@
 # Copyright 2017 Specialty Medical Drugstore
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 
-from odoo import _, api, exceptions, fields, models
+from openerp import _, api, exceptions, fields, models
 
 
 class ProjectTask(models.Model):
     _inherit = "project.task"
-    _name = "project.task"
 
     pr_uri = fields.Char(
         string='PR URI',

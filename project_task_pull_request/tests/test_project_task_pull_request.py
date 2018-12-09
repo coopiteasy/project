@@ -2,8 +2,8 @@
 # Copyright 2017 Specialty Medical Drugstore
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 
-from odoo.tests.common import TransactionCase
-from odoo.exceptions import ValidationError
+from openerp.tests.common import TransactionCase
+from openerp.exceptions import ValidationError
 
 
 class TestProjectTaskPullRequest(TransactionCase):

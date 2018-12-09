@@ -2,7 +2,7 @@
 <!-- Copyright 2017 Specialty Medical Drugstore
      License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
 
-<odoo>
+<openerp>
 
     <record id="view_task_form2" model="ir.ui.view">
         <field name="name">project.task.form.pr</field>
@@ -31,4 +31,4 @@
         </field>
     </record>
 
-</odoo>
+</openerp>
